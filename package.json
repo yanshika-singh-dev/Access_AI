@@ -1,0 +1,26 @@
+{
+  "name": "accessai-platform",
+  "version": "1.0.0",
+  "description": "AccessAI — Unified AI Accessibility Platform. WeSee for blind + SignSpeak for deaf. 100% free.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/drawing_utils": "^0.3.1675466124",
+    "@mediapipe/hands": "^0.4.1646424915",
+    "@tensorflow/tfjs": "^4.22.0",
+    "fingerpose": "^0.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0"
+  },
+  "author": "Group 70 - VIT Bhopal University",
+  "license": "MIT"
+}

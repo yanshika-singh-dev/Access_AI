@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ── ML model files (large + personal — regenerate locally) ──────────────────
+public/model_weights.json
+public/label_map.json
+public/gesture_weights.json
+public/gesture_label_map.json
+public/tfjs_model/
+
+# ── Python training artifacts ─────────────────────────────────────────────────
+signspeak_ml/python_trainer/asl_keypoints.csv
+signspeak_ml/python_trainer/gesture_keypoints.csv
+signspeak_ml/python_trainer/*.keras
+signspeak_ml/python_trainer/asl_saved_model/
+signspeak_ml/python_trainer/gesture_mlp_model/
+signspeak_ml/python_trainer/model_weights.json
+signspeak_ml/python_trainer/gesture_weights.json
+signspeak_ml/python_trainer/label_map.json
+signspeak_ml/python_trainer/gesture_label_map.json
+signspeak_ml/python_trainer/training_curves.png
+signspeak_ml/python_trainer/tfjs_model/
+
+# ── Python venv ───────────────────────────────────────────────────────────────
+signspeak_ml/venv/
+signspeak_ml/python_trainer/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
