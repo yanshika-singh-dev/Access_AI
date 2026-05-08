@@ -69,7 +69,7 @@ export default function Home({ onNavigate }) {
       </nav>
 
       {/* ── Hero ── */}
-      <section style={{ maxWidth: 900, margin: '0 auto', padding: '72px 24px 56px', textAlign: 'center' }}>
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: '80px 24px 56px', textAlign: 'center' }}>
 
         {/* Badge */}
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 999, padding: '5px 14px', marginBottom: 28, animation: 'fadeIn 0.6s ease' }}>
@@ -114,7 +114,7 @@ export default function Home({ onNavigate }) {
         </div>
 
         {/* ── Tool Cards ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 20, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(380px, 1fr))', gap: 20, textAlign: 'left' }}>
 
           {/* WeSee Card */}
           <div className="home-card card-1"
@@ -141,7 +141,7 @@ export default function Home({ onNavigate }) {
                 fontSize: 26, boxShadow: '0 4px 14px rgba(59,130,246,0.35)',
               }}>👁️</div>
               <span className="tag-pill" style={{ background: '#eff6ff', color: '#2563eb', border: '1px solid #bfdbfe' }}>
-                YOLOv8n
+                CoCO-SSD
               </span>
             </div>
 
