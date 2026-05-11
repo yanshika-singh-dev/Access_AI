@@ -219,7 +219,7 @@ export default function WeSee({ onBack }) {
               background:'#000', borderRadius:20, overflow:'hidden',
               position:'relative', marginBottom:14,
               border:`2px solid ${hasHazard?'#fca5a5':'#e2e8f0'}`,
-              aspectRatio:'16/9',
+              aspectRatio:'16/10',
               display:'flex', alignItems:'center', justifyContent:'center',
             }}>
               <video ref={videoRef} autoPlay playsInline muted style={{ width:'100%',height:'100%',objectFit:'cover',display:active?'block':'none' }} />
