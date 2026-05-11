@@ -200,7 +200,7 @@ export default function Home({ onNavigate }) {
             </p>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 24 }}>
-              {['26 ASL Letters', 'Live Text', 'Text-to-Speech', 'Word Builder'].map(tag => (
+              {['26 ASL Letters', '24 Gestures', 'Live Text', 'Text-to-Speech', 'Word Builder'].map(tag => (
                 <span key={tag} style={{ fontSize: 11, padding: '3px 10px', borderRadius: 999, background: '#f5f3ff', color: '#7c3aed', border: '1px solid #ddd6fe', fontWeight: 500 }}>{tag}</span>
               ))}
             </div>
