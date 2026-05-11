@@ -33,10 +33,6 @@ pnpm-debug.log*
 Thumbs.db
 
 # ── ML model files (large + personal — regenerate locally) ──────────────────
-public/model_weights.json
-public/label_map.json
-public/gesture_weights.json
-public/gesture_label_map.json
 public/tfjs_model/
 
 # ── Python training artifacts ─────────────────────────────────────────────────
